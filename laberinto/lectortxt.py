@@ -1,3 +1,2 @@
 with open('lab.txt', 'r') as archivo:
-    contenido = archivo.read()
-print(contenido)
+    level = [line.strip() for line in archivo]
