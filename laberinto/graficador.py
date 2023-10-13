@@ -6,8 +6,9 @@ from lectortxt import level
 pygame.init()
 
 # Constants
-WIDTH, HEIGHT = 640, 480
 CELL_SIZE = 32
+WIDTH = len(level[0]) * CELL_SIZE
+HEIGHT = len(level) * CELL_SIZE
 WHITE = (255, 255, 255)
 PLAYER_COLOR = (0, 0, 255)
 
